@@ -40,7 +40,7 @@
 									"Facts": "Crvena predstavlja sve o snazi i fizičkim potrebama, ali je, također, agresivna i dominantna."
 								},
 								{
-									"Path": "files/Topic_2/red",
+									"Path": "files/Topic_2/red2",
 									"Name": "red",
 									"Facts": "Kao prva boja duge, crvena je pionirski duh s liderskim kvalitetama."
 								}
@@ -123,6 +123,33 @@
 							"FilePath": "files/Topic_5/audio5"
 						}
 					]
+				},
+				{
+					"Name": "Narančasta",
+					"Media": [
+						{
+							"Name": "Gallery",
+							"Photos": [
+								{
+									"Path": "files/Topic_6/orange",
+									"Name": "orange",
+									"Facts": "Narančasta je boja krajnosti. To je boja polarizirajućih mišljenja,ili je mrzite ili je volite."
+								},
+								{
+									"Path": "files/Topic_6/orange2",
+									"Name": "orange",
+									"Facts": "Narančasta predstavlja promjenu godišnjih doba, pa se često koristi kao prijelazna boja."
+								}
+							]
+						},
+						{
+							"Name": "Audio",
+							"FilePath": "files/Topic_6/audio6"
+						}
+					]
+				},
+				{
+					"Name": "Extra"
 				}
 			]
 		},
@@ -166,7 +193,7 @@
 									"Facts": "Red is all about strength and physical needs, but it also is aggressive and dominant."
 								},
 								{
-									"Path": "files/Topic_2/red",
+									"Path": "files/Topic_2/red2",
 									"Name": "red",
 									"Facts": "As the first color of the rainbow, red is the pioneering spirit with leadership qualities."
 								}
@@ -235,7 +262,7 @@
 								{
 									"Path": "files/Topic_5/purple",
 									"Name": "purple",
-									"Facts": "Purple is a spiritual, feminine, and mysterious color"
+									"Facts": "Purple is a spiritual, feminine, and mysterious color."
 								},
 								{
 									"Path": "files/Topic_5/purple2",
@@ -249,6 +276,33 @@
 							"FilePath": "files/Topic_5/audio5"
 						}
 					]
+				},
+				{
+					"Name": "Orange",
+					"Media": [
+						{
+							"Name": "Gallery",
+							"Photos": [
+								{
+									"Path": "files/Topic_6/orange",
+									"Name": "orange",
+									"Facts": "Orange is a color of extremes. It’s a hue of polarizing opinions, you hate it, or you love it."
+								},
+								{
+									"Path": "files/Topic_6/orange2",
+									"Name": "orange",
+									"Facts": "Orange represents the changing seasons, and therefore, it is often used as a transitional color."
+								}
+							]
+						},
+						{
+							"Name": "Audio",
+							"FilePath": "files/Topic_6/audio6"
+						}
+					]
+				},
+				{
+					"Name": "Extra"
 				}
 			]
 		},
@@ -292,7 +346,7 @@
 									"Facts": "Bei Rot dreht sich alles um Kraft und körperliche Bedürfnisse, aber es ist auch aggressiv und dominant."
 								},
 								{
-									"Path": "files/Topic_2/red",
+									"Path": "files/Topic_2/red2",
 									"Name": "red",
 									"Facts": "Als erste Farbe des Regenbogens steht Rot für Pioniergeist mit Führungsqualitäten."
 								}
@@ -375,6 +429,33 @@
 							"FilePath": "files/Topic_5/audio5"
 						}
 					]
+				},
+				{
+					"Name": "Orange",
+					"Media": [
+						{
+							"Name": "Gallery",
+							"Photos": [
+								{
+									"Path": "files/Topic_6/orange",
+									"Name": "orange",
+									"Facts": "Orange ist eine Farbe der Extreme. Es ist ein Farbton polarisierender Meinungen, man hasst es oder man liebt es."
+								},
+								{
+									"Path": "files/Topic_6/orange2",
+									"Name": "orange",
+									"Facts": "Orange steht für die wechselnden Jahreszeiten und wird daher oft als Übergangsfarbe verwendet."
+								}
+							]
+						},
+						{
+							"Name": "Audio",
+							"FilePath": "files/Topic_6/audio6"
+						}
+					]
+				},
+				{
+					"Name": "Extra"
 				}
 			]
 		}

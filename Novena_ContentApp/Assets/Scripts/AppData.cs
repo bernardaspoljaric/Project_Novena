@@ -17,12 +17,16 @@ public class AppData : MonoBehaviour
     [SerializeField] private GameObject languagePage;
     [SerializeField] private GameObject topicsPage;
     [SerializeField] private GameObject detailsPage;
+    [SerializeField] private GameObject extraPage;
 
     [SerializeField] private Button languageButton;
     [SerializeField] private Button topicButton;
 
     [SerializeField] private TextMeshProUGUI topicNumber;
     [SerializeField] private TextMeshProUGUI topicName;
+
+    [SerializeField] private TextMeshProUGUI topicGameNumber;
+    [SerializeField] private TextMeshProUGUI topicGameName;
 
     // variables for slideshow
     [SerializeField] private RawImage slideshow;
@@ -113,9 +117,32 @@ public class AppData : MonoBehaviour
                     buttonTexts[j].text = (i+1).ToString();
                 }
             }
-            
-            newButton.onClick.AddListener(OpenDetails);
-            newButton.onClick.AddListener(delegate { ShowDetails(newButton); });
+
+            if (readTranslatedContents.TranslatedContents[selectedLanguage].Topics[i].Name == "Extra")
+            {
+                newButton.onClick.AddListener(delegate { OpenGame(newButton); });
+            }
+            else
+            {
+                newButton.onClick.AddListener(OpenDetails);
+                newButton.onClick.AddListener(delegate { ShowDetails(newButton); });
+            }
+        }
+    }
+
+    // method for opening mini game
+    public void OpenGame(Button clickedButton)
+    {
+        extraPage.SetActive(true);
+        topicsPage.SetActive(false);
+
+        for (int i = 0; i < readTranslatedContents.TranslatedContents[selectedLanguage].Topics.Length; i++)
+        {
+            if (clickedButton.GetComponentInChildren<TextMeshProUGUI>().text == readTranslatedContents.TranslatedContents[selectedLanguage].Topics[i].Name)
+            {
+                topicGameNumber.text = (i + 1).ToString();
+                topicGameName.text = readTranslatedContents.TranslatedContents[selectedLanguage].Topics[i].Name;
+            }
         }
     }
 
@@ -230,24 +257,25 @@ public class AppData : MonoBehaviour
         audioSecondsPassed = 0;
         audioSource.clip = null;
         audioDuration = 0;
+        audioSource.time = 0;
     }
 
     // method for changing audio duration text while audio is playing
     private void AudioTextManipulation()
     {
-        if (audioMinutesPassed < 10 && audioSecondsPassed < 10)
+        if (audioMinutesPassed < 10 && audioSecondsPassed < 10 && audioMinutes < 10 && audioSeconds < 10)
         {
             audioDurationText.text = "0" + audioMinutesPassed.ToString() + ":0" + audioSecondsPassed.ToString() + " / 0" + audioMinutes.ToString() + ":0" + audioSeconds.ToString();
         }
-        else if (audioMinutesPassed < 10 && audioSecondsPassed >= 10)
+        else if (audioMinutesPassed < 10 && audioSecondsPassed >= 10 && audioMinutes < 10 && audioSeconds >= 10)
         {
             audioDurationText.text = "0" + audioMinutesPassed.ToString() + ":" + audioSecondsPassed.ToString() + " / 0" + audioMinutes.ToString() + ":" + audioSeconds.ToString();
         }
-        else if (audioMinutesPassed >= 10 && audioSecondsPassed < 10)
+        else if (audioMinutesPassed >= 10 && audioSecondsPassed < 10 && audioMinutes >= 10 && audioSeconds < 10)
         {
             audioDurationText.text = audioMinutesPassed.ToString() + ":0" + audioSecondsPassed.ToString() + " / " + audioMinutes.ToString() + ":0" + audioSeconds.ToString();
         }
-        else if (audioMinutesPassed >= 10 && audioSecondsPassed >= 10)
+        else if (audioMinutesPassed >= 10 && audioSecondsPassed >= 10 && audioMinutes >= 10 && audioSeconds >= 10)
         {
             audioDurationText.text = audioMinutesPassed.ToString() + ":" + audioSecondsPassed.ToString() + " / " + audioMinutes.ToString() + ":" + audioSeconds.ToString();
         }
