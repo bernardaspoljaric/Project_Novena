@@ -1,0 +1,382 @@
+{
+	"TranslatedContents": [
+		{
+			"LanguageId": 1,
+			"LanguageName": "Hrvatski",
+			"Topics": [
+				{
+					"Name": "Plava",
+					"Media": [
+						{
+							"Name": "Gallery",
+							"Photos": [
+								{
+									"Path": "files/Topic_1/blue",
+									"Name": "blue",
+									"Facts": "Plava boja predstavlja i nebo i more, te se povezuje s otvorenim prostorima, slobodom, intuicijom, maštom, inspiracijom i osjetljivošću."
+								},
+								{
+									"Path": "files/Topic_1/blue2",
+									"Name": "blue",
+									"Facts": "Plava boja može predstavljati odmor i može uzrokovati da tijelo proizvodi kemikalije koje umiruju i oslobađaju osjećaj mira."
+								}
+							]
+						},
+						{
+							"Name": "Audio",
+							"FilePath": "files/Topic_1/audio1"
+						}
+					]
+				},
+				{
+					"Name": "Crvena",
+					"Media": [
+						{
+							"Name": "Gallery",
+							"Photos": [
+								{
+									"Path": "files/Topic_2/red",
+									"Name": "red",
+									"Facts": "Crvena predstavlja sve o snazi i fizičkim potrebama, ali je, također, agresivna i dominantna."
+								},
+								{
+									"Path": "files/Topic_2/red",
+									"Name": "red",
+									"Facts": "Kao prva boja duge, crvena je pionirski duh s liderskim kvalitetama."
+								}
+							]
+						},
+						{
+							"Name": "Audio",
+							"FilePath": "files/Topic_2/audio2"
+						}
+					]
+				},
+				{
+					"Name": "Zelena",
+					"Media": [
+						{
+							"Name": "Gallery",
+							"Photos": [
+								{
+									"Path": "files/Topic_3/green",
+									"Name": "green",
+									"Facts": "Zelena nas inspirira i vitalizira u svim nijansama."
+								},
+								{
+									"Path": "files/Topic_3/green2",
+									"Name": "green",
+									"Facts": "Zelena simbolizira dobro zdravlje, a također je i ljekovita boja jer nudi ravnotežu između našeg tijela i uma."
+								}
+							]
+						},
+						{
+							"Name": "Audio",
+							"FilePath": "files/Topic_3/audio3"
+						}
+					]
+				},
+				{
+					"Name": "Žuta",
+					"Media": [
+						{
+							"Name": "Gallery",
+							"Photos": [
+								{
+									"Path": "files/Topic_4/yellow",
+									"Name": "yellow",
+									"Facts": "Žuta je optimistična i vesela nijansa koja prosvjetljuje. Izaziva ugodne osjećaje, s lakoćom osvaja i šarmira."
+								},
+								{
+									"Path": "files/Topic_4/yellow2",
+									"Name": "yellow",
+									"Facts": "Žuta daje energiju i dinamična je boja koja potiče brzo donošenje odluka."
+								}
+							]
+						},
+						{
+							"Name": "Audio",
+							"FilePath": "files/Topic_4/audio4"
+						}
+					]
+				},
+				{
+					"Name": "Ljubičasta",
+					"Media": [
+						{
+							"Name": "Gallery",
+							"Photos": [
+								{
+									"Path": "files/Topic_5/purple",
+									"Name": "purple",
+									"Facts": "Ljubičasta je duhovna, ženstvena i tajanstvena boja."
+								},
+								{
+									"Path": "files/Topic_5/purple2",
+									"Name": "purple",
+									"Facts": "Uz energiju crvene i smirenost plave, ljubičasta je boja koja potiče na razmišljanje i samosvijest."
+								}
+							]
+						},
+						{
+							"Name": "Audio",
+							"FilePath": "files/Topic_5/audio5"
+						}
+					]
+				}
+			]
+		},
+		{
+			"LanguageId": 2,
+			"LanguageName": "English",
+			"Topics": [
+				{
+					"Name": "Blue",
+					"Media": [
+						{
+							"Name": "Gallery",
+							"Photos": [
+								{
+									"Path": "/files/blue.png",
+									"Name": "blue",
+									"Facts": "The color blue represents both the sky and the sea and is associated with open spaces, freedom, intuition, imagination, inspiration, and sensitivity."
+								},
+								{
+									"Path": "/files/test2.png",
+									"Name": "test2",
+									"Facts": "Blue can represent rest and can cause the body to produce chemicals that are calming and release feelings of tranquility."
+								}
+							]
+						},
+						{
+							"Name": "Audio",
+							"FilePath": "/files/audio1.mp3"
+						}
+					]
+				},
+				{
+					"Name": "Red",
+					"Media": [
+						{
+							"Name": "Gallery",
+							"Photos": [
+								{
+									"Path": "files/Topic_2/red",
+									"Name": "red",
+									"Facts": "Red is all about strength and physical needs, but it also is aggressive and dominant."
+								},
+								{
+									"Path": "files/Topic_2/red",
+									"Name": "red",
+									"Facts": "As the first color of the rainbow, red is the pioneering spirit with leadership qualities."
+								}
+							]
+						},
+						{
+							"Name": "Audio",
+							"FilePath": "files/Topic_2/audio2"
+						}
+					]
+				},
+				{
+					"Name": "Green",
+					"Media": [
+						{
+							"Name": "Gallery",
+							"Photos": [
+								{
+									"Path": "files/Topic_3/green",
+									"Name": "green",
+									"Facts": "Green inspires and vitalizes us in all hues."
+								},
+								{
+									"Path": "files/Topic_3/green2",
+									"Name": "green",
+									"Facts": "Green symbolizes good health and it’s also a healing color as it offers a balance between our body and mind."
+								}
+							]
+						},
+						{
+							"Name": "Audio",
+							"FilePath": "files/Topic_3/audio3"
+						}
+					]
+				},
+				{
+					"Name": "Yellow",
+					"Media": [
+						{
+							"Name": "Gallery",
+							"Photos": [
+								{
+									"Path": "files/Topic_4/yellow",
+									"Name": "yellow",
+									"Facts": "Yellow is an upbeat and cheerful hue that is enlightening. It evokes pleasant feelings, captivating and charming with ease."
+								},
+								{
+									"Path": "files/Topic_4/yellow2",
+									"Name": "yellow",
+									"Facts": "Yellow gives energy and is a dynamic color that motivates quick decision-making."
+								}
+							]
+						},
+						{
+							"Name": "Audio",
+							"FilePath": "files/Topic_4/audio4"
+						}
+					]
+				},
+				{
+					"Name": "Purple",
+					"Media": [
+						{
+							"Name": "Gallery",
+							"Photos": [
+								{
+									"Path": "files/Topic_5/purple",
+									"Name": "purple",
+									"Facts": "Purple is a spiritual, feminine, and mysterious color"
+								},
+								{
+									"Path": "files/Topic_5/purple2",
+									"Name": "purple",
+									"Facts": "With red’s energy and blue’s calm, purple is a color that inspires reflection and self-awareness."
+								}
+							]
+						},
+						{
+							"Name": "Audio",
+							"FilePath": "files/Topic_5/audio5"
+						}
+					]
+				}
+			]
+		},
+		{
+			"LanguageId": 3,
+			"LanguageName": "Deutch",
+			"Topics": [
+				{
+					"Name": "Blau",
+					"Media": [
+						{
+							"Name": "Gallery",
+							"Photos": [
+								{
+									"Path": "files/Topic_1/blue",
+									"Name": "blue",
+									"Facts": "Die Farbe Blau repräsentiert sowohl den Himmel als auch das Meer und wird mit offenen Räumen, Freiheit, Intuition, Vorstellungskraft, Inspiration und Sensibilität assoziiert."
+								},
+								{
+									"Path": "files/Topic_1/blue2",
+									"Name": "blue",
+									"Facts": "Blau kann Ruhe darstellen und den Körper veranlassen, Chemikalien zu produzieren, die beruhigend wirken und ein Gefühl der Ruhe freisetzen."
+								}
+							]
+						},
+						{
+							"Name": "Audio",
+							"FilePath": "files/Topic_1/audio1"
+						}
+					]
+				},
+				{
+					"Name": "Rot",
+					"Media": [
+						{
+							"Name": "Gallery",
+							"Photos": [
+								{
+									"Path": "files/Topic_2/red",
+									"Name": "red",
+									"Facts": "Bei Rot dreht sich alles um Kraft und körperliche Bedürfnisse, aber es ist auch aggressiv und dominant."
+								},
+								{
+									"Path": "files/Topic_2/red",
+									"Name": "red",
+									"Facts": "Als erste Farbe des Regenbogens steht Rot für Pioniergeist mit Führungsqualitäten."
+								}
+							]
+						},
+						{
+							"Name": "Audio",
+							"FilePath": "files/Topic_2/audio2"
+						}
+					]
+				},
+				{
+					"Name": "Grün",
+					"Media": [
+						{
+							"Name": "Gallery",
+							"Photos": [
+								{
+									"Path": "files/Topic_3/green",
+									"Name": "green",
+									"Facts": "Grün inspiriert und belebt uns in allen Nuancen."
+								},
+								{
+									"Path": "files/Topic_3/green2",
+									"Name": "green",
+									"Facts": "Grün symbolisiert eine gute Gesundheit und ist auch eine heilende Farbe, da es ein Gleichgewicht zwischen Körper und Geist bietet."
+								}
+							]
+						},
+						{
+							"Name": "Audio",
+							"FilePath": "files/Topic_3/audio3"
+						}
+					]
+				},
+				{
+					"Name": "Gelb",
+					"Media": [
+						{
+							"Name": "Gallery",
+							"Photos": [
+								{
+									"Path": "files/Topic_4/yellow",
+									"Name": "yellow",
+									"Facts": "Gelb ist ein optimistischer und fröhlicher Farbton, der aufschlussreich ist. Es weckt angenehme Gefühle, fesselnd und charmant mit Leichtigkeit."
+								},
+								{
+									"Path": "files/Topic_4/yellow2",
+									"Name": "yellow",
+									"Facts": "Gelb gibt Energie und ist eine dynamische Farbe, die zu schnellen Entscheidungen motiviert."
+								}
+							]
+						},
+						{
+							"Name": "Audio",
+							"FilePath": "files/Topic_4/audio4"
+						}
+					]
+				},
+				{
+					"Name": "Violett",
+					"Media": [
+						{
+							"Name": "Gallery",
+							"Photos": [
+								{
+									"Path": "files/Topic_5/purple",
+									"Name": "purple",
+									"Facts": "Violett ist eine spirituelle, feminine und mysteriöse Farbe"
+								},
+								{
+									"Path": "files/Topic_5/purple2",
+									"Name": "purple",
+									"Facts": "Mit der Energie von Rot und der Ruhe von Blau ist Lila eine Farbe, die zum Nachdenken und Selbstbewusstsein anregt."
+								}
+							]
+						},
+						{
+							"Name": "Audio",
+							"FilePath": "files/Topic_5/audio5"
+						}
+					]
+				}
+			]
+		}
+	]
+}
