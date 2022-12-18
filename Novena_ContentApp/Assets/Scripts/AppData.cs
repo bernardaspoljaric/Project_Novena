@@ -53,6 +53,9 @@ public class AppData : MonoBehaviour
     // choosen language
     private int selectedLanguage;
 
+    // game script
+    [SerializeField] private ColorGame colorGame;
+
     public void StartAppData()
     {
         t = 5f;
@@ -145,6 +148,8 @@ public class AppData : MonoBehaviour
                 topicGameName.text = readTranslatedContents.TranslatedContents[selectedLanguage].Topics[i].Name;
             }
         }
+
+        colorGame.StartGame();
     }
 
     // method for changing display images

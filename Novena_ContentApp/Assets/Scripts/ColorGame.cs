@@ -17,7 +17,7 @@ public class ColorGame : MonoBehaviour
     private string hexColorName;
     private int score;
 
-    private void Start()
+    public void StartGame()
     {
         score = 0;
         scoreText.text = score.ToString();
