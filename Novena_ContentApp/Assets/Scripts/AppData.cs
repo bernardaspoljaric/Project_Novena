@@ -2,6 +2,7 @@ using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
+using System;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -52,7 +53,7 @@ public class AppData : MonoBehaviour
     // choosen language
     private int selectedLanguage;
 
-    public void Start()
+    public void StartAppData()
     {
         t = 5f;
         readTranslatedContents = JsonUtility.FromJson<TranslatedContentsList>(textJson.text);
@@ -310,7 +311,7 @@ public class AppData : MonoBehaviour
     }
 }
 
-[System.Serializable]
+[Serializable]
 public class TranslatedContents
 {
     public int LanguageId;
@@ -318,14 +319,14 @@ public class TranslatedContents
     public Topics[] Topics;
 }
 
-[System.Serializable]
+[Serializable]
 public class Topics
 {
     public string Name;
     public Media[] Media;
 }
 
-[System.Serializable]
+[Serializable]
 public class Media
 {
     public string Name;
@@ -333,7 +334,7 @@ public class Media
     public string FilePath;
 }
 
-[System.Serializable]
+[Serializable]
 public class Photos
 {
     public string Path;
@@ -341,25 +342,25 @@ public class Photos
     public string Facts;
 }
 
-[System.Serializable]
+[Serializable]
 public class TranslatedContentsList
 {
     public TranslatedContents[] TranslatedContents;
 }
 
-[System.Serializable]
+[Serializable]
 public class TopicsList
 {
     public Topics[] Topics;
 }
 
-[System.Serializable]
+[Serializable]
 public class MediaList
 {
     public Media[] Media;
 }
 
-[System.Serializable]
+[Serializable]
 public class PhotosList
 {
     public Photos[] Photos;
