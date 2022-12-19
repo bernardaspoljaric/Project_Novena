@@ -1,0 +1,4 @@
+#Mon Dec 19 11:45:16 CET 2022
+base.0=D\:\\BApps\\Project_Novena\\Novena_ContentApp\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

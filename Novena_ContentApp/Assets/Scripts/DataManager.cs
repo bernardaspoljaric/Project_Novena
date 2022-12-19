@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
-using UnityEngine.Networking;
 using System.IO;
 
 public class DataManager : MonoBehaviour
@@ -40,7 +39,6 @@ public class DataManager : MonoBehaviour
         string json = ReadFromFile(jsonFileName);
         JsonUtility.FromJsonOverwrite(json, translatedContents);
         File.WriteAllText(Application.dataPath + "/Resources/" + jsonFileName, json);
-        AssetDatabase.Refresh();
         appData.textJson = Resources.Load("example") as TextAsset;
         appData.StartAppData();
     }
@@ -86,7 +84,6 @@ public class DataManager : MonoBehaviour
         byte[] folder = ReadFolderFromFile(folderName);
         
         File.WriteAllBytes(Application.dataPath + "/Resources/" + folderName, folder);
-        AssetDatabase.Refresh();
         
     }
 
